@@ -1,6 +1,6 @@
-# Projeto: App Caderno de Ofertas
+# Atividade - Android - FACOL
 
-Trabalho de conclusão de curso do 8º periodo de Sistemnas de Informação da faculdade Osman da Costa Lins - FACOL.
+Trabalho - 8º periodo de Sistemnas de Informação da faculdade Osman da Costa Lins - FACOL.
 
 ## Aplicativo android
 
@@ -15,11 +15,6 @@ Será alimentado pela parte do projeto web e seus webservices.
 ## Versões
 
 * Acompanhadas pelo prórpio repositório github.
-
-## Desenvolvedores
-
-* **Daniel Carlos** - *Desenvolvimento Java*
-* **Luís Araújo** - *Desenvolvimento PHP*
 
 ## License
 
