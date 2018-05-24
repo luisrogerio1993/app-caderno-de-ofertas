@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">AtividadeAndroid</string>
+    <string name="app_name">CDO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela_categorias">TelaCategoriasActivity</string>
+    <string name="title_activity_tela_home">TelaHomeActivity</string>
+    <string name="title_activity_tela_lista_categorias">TelaListaCategorias</string>
+    <string name="title_activity_tela_categoria_por_id">TelaCategoriaPorId</string>
+    <string name="title_activity_anuncio_por_id">AnuncioPorIdActivity</string>
+    <string name="title_activity_pagina_erro">PaginaErroActivity</string>
 </resources>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_loja_pag"
+            android:src="@drawable/loja_null"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nome_loja_pag"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:text="Nome da Loja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/rua_loja_pag"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Rua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="13sp"
+                    android:text=","
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/num_loja_pag"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Número"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bairro_loja_pag"
+                android:textSize="13sp"
+                android:layout_marginLeft="5dp"
+                android:text="Bairro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"
+                    android:text="("
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/ddd_telefone_loja_pag"
+                    android:textSize="13sp"
+                    android:text="ddd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="13sp"
+                    android:text=") "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/telefone_loja_pag"
+                    android:textSize="13sp"
+                    android:text="Telefone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"
+                    android:text="("
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/ddd_celular_loja_pag"
+                    android:textSize="13sp"
+                    android:text="ddd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="13sp"
+                    android:text=") "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/celular_loja_pag"
+                    android:textSize="13sp"
+                    android:text="Celular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:text="Descrição da Loja"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/desc_loja_pag"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="Descrição da Loja..."
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="22dp"
+        android:text="Principais Ofertas"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        card_view:cardElevation="4dp"
+        card_view:cardUseCompatPadding="true"
+        android:id="@+id/cardview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/anuncio_null"
+                android:id="@+id/img_anuncio"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="10sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="R$ "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="10sp"
+                    android:text="valor"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:id="@+id/valor_atual_anuncio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="nome do anuncioooooooooooo"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textSize="10sp"
+                android:id="@+id/nome_anuncio"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
