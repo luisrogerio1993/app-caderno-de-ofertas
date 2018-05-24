@@ -1,4 +1,4 @@
-package com.example.daniel.cdo;
+package com.example.daniel.atividadeandroid;
 
 import org.junit.Test;
 
